@@ -1,0 +1,122 @@
+# Product Dataset Report
+
+
+## Summary
+- Total records: 1000
+- Total columns: 55
+
+
+## Columns
+- timestamp
+- title
+- seller_name
+- brand
+- description
+- initial_price
+- final_price
+- currency
+- availability
+- reviews_count
+- categories
+- asin
+- buybox_seller
+- number_of_sellers
+- root_bs_rank
+- answered_questions
+- domain
+- images_count
+- url
+- video_count
+- image_url
+- item_weight
+- rating
+- product_dimensions
+- seller_id
+- date_first_available
+- discount
+- model_number
+- manufacturer
+- department
+- plus_content
+- upc
+- video
+- top_review
+- variations
+- delivery
+- features
+- format
+- buybox_prices
+- parent_asin
+- input_asin
+- ingredients
+- origin_url
+- bought_past_month
+- is_available
+- root_bs_category
+- bs_category
+- bs_rank
+- badge
+- subcategory_rank
+- amazon_choice
+- images
+- product_details
+- prices_breakdown
+- country_of_origin
+
+
+## Missing Values
+- timestamp: 0
+- title: 0
+- seller_name: 174
+- brand: 1
+- description: 2
+- initial_price: 0
+- final_price: 0
+- currency: 0
+- availability: 6
+- reviews_count: 0
+- categories: 0
+- asin: 0
+- buybox_seller: 74
+- number_of_sellers: 16
+- root_bs_rank: 1
+- answered_questions: 31
+- domain: 0
+- images_count: 0
+- url: 0
+- video_count: 0
+- image_url: 5
+- item_weight: 247
+- rating: 0
+- product_dimensions: 67
+- seller_id: 0
+- date_first_available: 79
+- discount: 179
+- model_number: 108
+- manufacturer: 30
+- department: 338
+- plus_content: 0
+- upc: 901
+- video: 0
+- top_review: 8
+- variations: 0
+- delivery: 0
+- features: 0
+- format: 0
+- buybox_prices: 0
+- parent_asin: 617
+- input_asin: 627
+- ingredients: 954
+- origin_url: 759
+- bought_past_month: 796
+- is_available: 783
+- root_bs_category: 894
+- bs_category: 894
+- bs_rank: 894
+- badge: 924
+- subcategory_rank: 0
+- amazon_choice: 894
+- images: 0
+- product_details: 0
+- prices_breakdown: 0
+- country_of_origin: 1000
