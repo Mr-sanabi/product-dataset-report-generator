@@ -1,18 +1,30 @@
+import argparse
 from loader import load_csv
 from cleaner import clean_records
 from analyzer import analyza_records
 from writer import save_csv, save_json, save_text
 from reporter import build_markdown_report
 
+def parse_args():
+
+    parser = argparse.ArgumentParser(
+        description="description"
+    )
+    parser.add_argument("--input")
+    parser.add_argument("--csv")
+    parser.add_argument("--json")
+    parser.add_argument("--report")
+    return parser.parse_args()
+
 def main():
-    input_path = "data/raw/amazon-products.csv"
-    records = load_csv(input_path)
+    args = parse_args()
+    records = load_csv(args.input)
     cleaned_records = clean_records(records)
     summary = analyza_records(cleaned_records)
-    save_csv("data/processed/cleaned_products.csv", cleaned_records)
-    save_json("data/processed/products.json", cleaned_records)
+    save_csv(args.csv, cleaned_records)
+    save_json(args.json, cleaned_records)
     report = build_markdown_report(summary)   
-    save_text(report, "reports/report.md")
+    save_text(report, args.report)
     print("Saved outputs")
 
 
