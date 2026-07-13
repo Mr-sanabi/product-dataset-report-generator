@@ -1,3 +1,7 @@
+> [!NOTE]
+> This repository is archived and no longer maintained.
+> It has been superseded by [Product Catalog Data Pipeline](https://github.com/Mr-sanabi/product-catalog-data-pipeline), which extends these ideas with multiple data sources, normalization, validation, deduplication, analytics, automated tests, and structured reporting.
+
 # Product Dataset Report Generator
 
 Python CLI tool for cleaning e-commerce product CSV datasets and generating structured CSV, JSON, and Markdown outputs.
